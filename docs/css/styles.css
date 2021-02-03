@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:"Inter";
+}
+
+
+ .container {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+ .title{
+     color:rgb(255, 255, 255);
+     font-size: 30px;
+     text-align: center;
+     margin-bottom: 60px;
+     
+ }
+
+
+                                /* Header*/                     
+
+
+
+header{
+    width: 100%;
+    height: 600;
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header .text-header{  
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-header h1{
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.text-header p{
+    font-size: 16px;
+    font-weight: 300;
+    color:#fff;
+}
+
+/* userds*/
+
+.icon-hot{
+    position: absolute;
+    margin-top: 5px;
+	border-radius: .25rem;
+	display:inline-block;
+	background: linear-gradient(90deg, rgba(222,3,183,0.9332107843137255) 37%, rgba(227,0,187,1) 69%);;
+	font-size:30px;
+    padding:1px 13px;  
+    text-decoration: none;
+    margin-left: 169px; 
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+}
+
+
+.briefcase{
+    text-decoration: none;
+    margin-top: -200px;
+    background-color: rgb(0, 0, 0);
+}
+
+.briefcase span{
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.user-text{
+    color: rgb(255, 255, 255);
+}
+
+.galery-port{
+  justify-content:space-evenly;
+    display: flex;
+}
+
+.briefcase .galery-port .imagen-port img{
+    border-radius: 5%;
+  }
+
+
+.heartBu{
+    margin-top: 5px;
+	border-radius: .25rem;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-size:15px;
+    padding:5px 9px;  
+    text-decoration: none;
+}
+
+.myButton {   
+    margin-top: 5px;
+	border-radius: .25rem;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#fffafa;
+	font-size:15px;
+    padding:5px 9px;  
+    text-decoration: none;
+}
+
+.buttonFo {
+    margin-top: 5px;
+	border-radius: .25rem;
+    background: linear-gradient(90deg, rgba(222, 3, 183, 0.933) 37%, rgba(227,0,187,1) 69%);
+	display:inline-block;
+	color:#fffafa;
+	font-size:15px;
+    padding:7px 32px;  
+    cursor: pointer;
+    font-family: "Inter"
+}
+
+.buttonFo:hover:after {
+    bottom: 26px;
+    content: attr(title); 
+    left: 20%;
+    position: absolute;
+    z-index: 98;
+    background: rgba(39, 35, 35, 0.986); 
+    border-radius: 5px;
+    color: #FFF; 
+    font-family: Inter;
+    font-size: 12px;
+    padding: 5px 15px;
+    text-align: center;
+    width: 150px;
+    white-space: pre-line;
+}
+
+
+/* Container hot works*/  
+
+.work{
+    margin-top: 6%;
+    width: 100%;
+    height: 600;
+    background-color: rgb(0, 0, 0)  ;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.work h2{
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.content-texts h3{
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    font-weight: 600;
+}
+
+
+
+.details{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.bckground {
+	background-image: url("https://i.imgur.com/okTwgJj.png");
+	padding: 200px 250px;
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.bckground:before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.bckground h1{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+
+.bckground p{         /*Buy Now*/
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-top: 5px;
+	border-radius: .25rem;
+    background: linear-gradient(90deg, rgba(222, 3, 183, 0.933) 37%, rgba(227,0,187,1) 69%);
+	font-weight: 600;
+	color:#fffafa;
+    padding:7px 32px;  
+    cursor: pointer;
+    font-family: "Inter"
+}
+
+.imtipit{
+    margin-top: 2%;
+    padding-left: 13%;
+    width: 220px;
+}
+.icons{
+    font-size: 80px;
+    color: mediumpurple;
+    flex-direction: column;
+    
+}
+
+
+.more{
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    font-family: "Inter";
+    font-weight: 600;
+    
+}
+
+.ulog{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px
+}
+
+.imalog {
+    margin-right: 300px;
+}
+
+.ulog img{
+    width: 300px;
+    height: 300px;
+
+}
+
+.ulog h3{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+}
+
+.ulog p{
+    width: 90%;
+    color: rgb(255, 255, 250);
+    font-weight: 400px;
+}
+
+/* Associates*/
+
+.poweredby{
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 7%;
+}
+
+
+.textpowered{
+    padding: 2%;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-weight: 400;
+}
+
+
+
+/* reviws*/
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+    .cards .card{
+        background-color: #f9f9f9;
+        display: flex;
+        width: 35%;
+        height: 150px;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 5px;
+        box-shadow: 0 0 6 rgba(0, 0, 0, 0.6);
+    }
+
+    .cards .card img{
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border: 3px solid #ffffff;
+        border-radius: 50%;
+        display: block;
+    }
+
+    .cards .card > .content-text-card{
+        width: 80%;
+        color: rgb(0, 0, 0);
+    }
+
+    .cards .card > .content-text-card p{
+        font-weight: 300;
+        padding-top: 1px;
+    }
+
+    .linked{
+        font-size:30px;
+        padding:1px 13px;  
+        text-decoration: none;
+        margin-left: 99%; 
+        margin-bottom: 120%;
+        cursor: pointer; 
+    }
+
+    /* footer*/
+
+    footer{
+    background:rgb(0, 0, 0)1;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    }
+
+    .container-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+  
+.title-end{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: rgb(255, 255, 255);
+}
+
+.links{
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0 0 0;
+    color: #ffffff;
+}
+
+@media screen and (max-width:900px){
+    
+}
